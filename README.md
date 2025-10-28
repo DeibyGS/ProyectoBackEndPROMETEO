@@ -86,7 +86,7 @@ npm install
 Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
 ```env
-PORT=3000
+PORT=8080
 MONGO_URI=mongodb+srv://<usuario>:<password>@<cluster>.mongodb.net/<nombreDB>
 
 JWT_SECRET=tu_clave_secreta
@@ -106,7 +106,7 @@ Inicia el servidor en modo desarrollo:
 npm run dev
 ```
 
-Por defecto se ejecutará en [http://localhost:3000](http://localhost:3000)
+Por defecto se ejecutará en [http://localhost:8080](http://localhost:8080)
 
 ---
 
@@ -170,7 +170,7 @@ Esto:
 ### 🔐 Login de usuario
 
 **Método:** `POST`  
-**URL:** `http://localhost:3000/api/auth/login`  
+**URL:** `http://localhost:8080/api/auth/login`  
 
 **Body (JSON):**
 ```json
@@ -231,7 +231,7 @@ Guarda el `token` en Insomnia para las rutas protegidas.
 
 **Deiby Gorrín**  
 Desarrollador Full Stack  
-📧 [Tu email o LinkedIn si deseas incluirlo]  
+📧 www.linkedin.com/in/deibygorrin
 
 ---
 
